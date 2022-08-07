@@ -25,7 +25,6 @@ public class TestBoxTests {
         $("#permanentAddress").setValue("Another address 1");
         $("#submit").click();
 
-        $("#submit").click();
         $("#output #email").shouldHave(text("Egor@egor.com"));
         $("#output #currentAddress").shouldHave(text("some address 1"));
         $("#output #permanentAddress").shouldHave(text("Another address 1"));
